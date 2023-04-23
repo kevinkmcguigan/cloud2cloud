@@ -39,6 +39,3 @@ Contributions to the Cloud2Cloud repository are welcome. If you have any suggest
 
 [MIT License](LICENSE)
 
----
-
-Note: The above README is a summary of the relevant information discussed in this chat log. Please make sure to create the mentioned script file (`potree_reader.py`) and include the corresponding code in the file. The file name and script description are based on the topics discussed in this chat, and you may need to adjust them according to the actual content of the repository.
