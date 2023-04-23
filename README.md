@@ -1,3 +1,5 @@
+Certainly! Here's the updated README with the description of `potree_reader.py`:
+
 # Cloud2Cloud
 
 Cloud2Cloud is a repository designed to assist users in loading, displaying, and manipulating point cloud data in Google Colab. The repository provides a set of Python scripts and utilities to work with point cloud data, including reading point cloud files, visualizing point clouds, and performing various point cloud processing tasks.
@@ -11,17 +13,9 @@ Cloud2Cloud is a repository designed to assist users in loading, displaying, and
 
 ## Scripts
 
-### `compressed_sensing.py`
-
-This script demonstrates the concept of compressed sensing for point cloud data. It provides a Python implementation of compressed sensing techniques to reduce the size of point cloud data while preserving important features.
-
 ### `potree_reader.py`
 
-This script provides a Python implementation for reading point cloud data stored in the Potree Octree format. It includes functions to read metadata, hierarchy, and point data from Potree `.bin` files. The script also demonstrates how to efficiently load point data within a specified bounding box.
-
-### `laz_compression.py`
-
-This script demonstrates the core concept of LAZ compression for point cloud data using pure NumPy. It provides a simplified implementation of the LAZ compression algorithm to reduce the size of point cloud data.
+This script provides functions to read point cloud data stored in the Potree Octree format. It includes functions to read metadata, hierarchy, and point data from Potree `.bin` files. The script also demonstrates how to efficiently load point data within a specified bounding box. The `read_metadata` function reads the metadata JSON file, the `read_hierarchy_bin` function reads the hierarchy information from the `hierarchy.bin` file, and the `read_octree_bin` function reads point data from the `octree.bin` file based on the specified bounding box.
 
 ## Usage
 
@@ -44,3 +38,7 @@ Contributions to the Cloud2Cloud repository are welcome. If you have any suggest
 ## License
 
 [MIT License](LICENSE)
+
+---
+
+Note: The above README is a summary of the relevant information discussed in this chat log. Please make sure to create the mentioned script file (`potree_reader.py`) and include the corresponding code in the file. The file name and script description are based on the topics discussed in this chat, and you may need to adjust them according to the actual content of the repository.
