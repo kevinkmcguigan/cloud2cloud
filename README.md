@@ -27,6 +27,7 @@ The scripts in this repository can be used in Google Colab notebooks to work wit
 - Federal (data) -  https://download-telecharger.services.geo.ca/pub/elevation/pointclouds_nuagespoints/NRCAN/
 - Nova Scotia (map interface) - https://nsgi.novascotia.ca/datalocator/elevation/
 - New Brunswick (map interface) - https://geonb.snb.ca/li/
+- -- ie https://geonb.snb.ca/downloads2/lidar/2017/erd2/laz/nb_2017_2648000_7492000.laz
 
 ### USA
 
