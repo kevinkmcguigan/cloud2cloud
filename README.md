@@ -21,6 +21,22 @@ This script provides functions to read point cloud data stored in the Potree Oct
 
 The scripts in this repository can be used in Google Colab notebooks to work with point cloud data. Users can load point cloud data from various file formats, visualize the point cloud, and perform point cloud processing tasks directly in Google Colab.
 
+## Sources
+
+### Canada
+Federal (data) -  https://download-telecharger.services.geo.ca/pub/elevation/pointclouds_nuagespoints/NRCAN/
+
+Nova Scotia (map interface) - https://nsgi.novascotia.ca/datalocator/elevation/
+
+New Brunswick (map interface) - https://geonb.snb.ca/li/
+
+### USA
+
+opentopography (map interface) - https://portal.opentopography.org/datasets
+
+NOAA (map interface) - https://coast.noaa.gov/dataviewer/#/lidar/search/
+
+
 ## References
 
 - Potree: A WebGL-based point cloud renderer for large point clouds. [Potree GitHub Repository](https://github.com/potree/potree)
