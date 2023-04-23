@@ -1,5 +1,3 @@
-Certainly! Here's the updated README with the description of `potree_reader.py`:
-
 # Cloud2Cloud
 
 Cloud2Cloud is a repository designed to assist users in loading, displaying, and manipulating point cloud data in Google Colab. The repository provides a set of Python scripts and utilities to work with point cloud data, including reading point cloud files, visualizing point clouds, and performing various point cloud processing tasks.
