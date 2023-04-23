@@ -41,6 +41,7 @@ The scripts in this repository can be used in Google Colab notebooks to work wit
 - Open3D: A library for 3D Data processing. [Open3D GitHub Repository](https://github.com/isl-org/Open3D)
 - Pyntcloud: a python library for working with 3D point clouds. [Pyntcloud GitHub Repository](https://github.com/daavoo/pyntcloud)
 - Whitebox Tools: An advanced geospatial data analysis platform. [Whitebox Tools GitHub Repository](https://github.com/jblindsay/whitebox-tools)
+- PyPotree : potree viewer for google colab. [PyPotree GitHub Repository](https://github.com/centreborelli/pypotree)
 
 
 
