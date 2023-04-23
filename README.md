@@ -24,17 +24,14 @@ The scripts in this repository can be used in Google Colab notebooks to work wit
 ## Sources
 
 ### Canada
-Federal (data) -  https://download-telecharger.services.geo.ca/pub/elevation/pointclouds_nuagespoints/NRCAN/
-
-Nova Scotia (map interface) - https://nsgi.novascotia.ca/datalocator/elevation/
-
-New Brunswick (map interface) - https://geonb.snb.ca/li/
+- Federal (data) -  https://download-telecharger.services.geo.ca/pub/elevation/pointclouds_nuagespoints/NRCAN/
+- Nova Scotia (map interface) - https://nsgi.novascotia.ca/datalocator/elevation/
+- New Brunswick (map interface) - https://geonb.snb.ca/li/
 
 ### USA
 
-opentopography (map interface) - https://portal.opentopography.org/datasets
-
-NOAA (map interface) - https://coast.noaa.gov/dataviewer/#/lidar/search/
+- opentopography (map interface) - https://portal.opentopography.org/datasets
+- NOAA (map interface) - https://coast.noaa.gov/dataviewer/#/lidar/search/
 
 
 ## References
@@ -42,6 +39,11 @@ NOAA (map interface) - https://coast.noaa.gov/dataviewer/#/lidar/search/
 - Potree: A WebGL-based point cloud renderer for large point clouds. [Potree GitHub Repository](https://github.com/potree/potree)
 - PDAL: Point Data Abstraction Library for processing point cloud data. [PDAL GitHub Repository](https://github.com/PDAL/PDAL)
 - LAZ Compression: A lossless compression format for point cloud data. [LAStools GitHub Repository](https://github.com/LAStools/LAStools/tree/master/LASzip)
+- Open3D: A library for 3D Data processing. [Open3D GitHub Repository](https://github.com/isl-org/Open3D)
+- Pyntcloud: a python library for working with 3D point clouds. [Pyntcloud GitHub Repository](https://github.com/daavoo/pyntcloud)
+- Whitebox Tools: An advanced geospatial data analysis platform. [Whitebox Tools GitHub Repository](https://github.com/jblindsay/whitebox-tools)
+
+
 
 ## Disclaimer
 
