@@ -43,7 +43,9 @@ The scripts in this repository can be used in Google Colab notebooks to work wit
 - Whitebox Tools: An advanced geospatial data analysis platform. [Whitebox Tools GitHub Repository](https://github.com/jblindsay/whitebox-tools)
 - PyPotree : potree viewer for google colab. [PyPotree GitHub Repository](https://github.com/centreborelli/pypotree)
 
-
+- https://luma.gl/
+- https://kepler.gl/
+- https://deck.gl/
 
 ## Disclaimer
 
