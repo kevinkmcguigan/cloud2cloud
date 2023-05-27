@@ -63,6 +63,7 @@ root = create_node(0, points)
 # Write the quadtree to a file
 write_quadtree_to_file('quadtree.bin', root)
 
+############ start of reading section
 
 def read_node_from_file(f):
     id = struct.unpack('I', f.read(4))[0]
@@ -82,3 +83,19 @@ def read_node_from_file(f):
 def read_index_from_file(f):
     num_entries = struct.unpack('I', f.read(4))[0]
     
+    index = {}
+    for _ in range(num_entries):
+        id, offset = struct.unpack('II', f.read(8))
+        index[id] = offset
+    
+    return index
+
+def read_quadtree_from_file(filename):
+    with open(filename, 'rb') as f:
+        root = read_node_from_file(f)
+        index = read_index_from_file(f)
+    return root, index
+
+#### usage example
+
+root, index = read_quadtree_from_file('quadtree.bin')
